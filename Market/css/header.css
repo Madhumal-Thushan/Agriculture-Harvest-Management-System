@@ -1,0 +1,60 @@
+header {
+	border-radius: 0;
+	height: 45px;
+	width : auto;
+	margin : auto;
+	background-color: #23A6D5;
+	padding-top: ;
+	padding: 0px;
+	
+	color: #fff;
+	background: linear-gradient(-45deg, #1FA2FF, #12D8FA, #A6FFCB, #23D5AB);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 10s ease-in-out infinite;
+}
+
+.links {
+  display: flex;
+  justify-content : right;
+}
+
+li {
+  float: left;
+  margin-top : 5px;
+    margin-left : 2px;
+}
+
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.item a:hover,
+.item a:focus {
+  border: 0px solid rgb(61, 146, 201);
+  text-decoration: none;
+}
+
+body {
+ background-image: url("pex.jpg");
+ background-color: #cccccc;
+}
+
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0 50%;
+	}
+}
